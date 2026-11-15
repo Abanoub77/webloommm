@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="orbitalTitle">
+  <title id="orbitalTitle">Orbital launch website</title>
+  <defs>
+    <linearGradient id="orbBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060a06"/>
+      <stop offset=".6" stop-color="#081006"/>
+      <stop offset="1" stop-color="#040604"/>
+    </linearGradient>
+    <radialGradient id="orbPlanet" cx=".34" cy=".28" r=".78">
+      <stop offset="0" stop-color="#f4ffd9"/>
+      <stop offset=".25" stop-color="#cbff76"/>
+      <stop offset=".55" stop-color="#7fc428"/>
+      <stop offset=".8" stop-color="#2d5813"/>
+      <stop offset="1" stop-color="#0a1406"/>
+    </radialGradient>
+    <radialGradient id="orbAura" cx=".5" cy=".5" r=".5">
+      <stop offset=".55" stop-color="#b4ff39" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#b4ff39" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#orbBg)"/>
+
+  <g fill="#b4ff39">
+    <circle cx="86" cy="96" r="1.2" opacity=".5"/>
+    <circle cx="212" cy="72" r="1" opacity=".35"/>
+    <circle cx="330" cy="130" r="1.4" opacity=".5"/>
+    <circle cx="470" cy="58" r="1" opacity=".4"/>
+    <circle cx="700" cy="120" r="1.2" opacity=".55"/>
+    <circle cx="752" cy="330" r="1.4" opacity=".4"/>
+    <circle cx="748" cy="486" r="1" opacity=".3"/>
+    <circle cx="140" cy="320" r="1" opacity=".4"/>
+    <circle cx="60" cy="470" r="1.2" opacity=".3"/>
+    <circle cx="388" cy="500" r="1" opacity=".35"/>
+    <circle cx="260" cy="390" r="1" opacity=".3"/>
+  </g>
+
+  <!-- aura and planet -->
+  <circle cx="615" cy="300" r="225" fill="url(#orbAura)"/>
+  <circle cx="615" cy="300" r="154" fill="url(#orbPlanet)"/>
+  <ellipse cx="567" cy="235" rx="46" ry="28" fill="#ffffff" opacity=".13" transform="rotate(-28 567 235)"/>
+  <path d="M497 258c34-26 92-34 140-16" fill="none" stroke="#f4ffd9" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
+  <path d="M486 348c46 38 130 38 198-4" fill="none" stroke="#0a1406" stroke-opacity=".35" stroke-width="10"/>
+
+  <!-- orbit rings -->
+  <g fill="none" transform="rotate(-18 615 300)">
+    <ellipse cx="615" cy="300" rx="238" ry="74" stroke="#b4ff39" stroke-opacity=".45" stroke-width="1.2"/>
+    <ellipse cx="615" cy="300" rx="278" ry="94" stroke="#b4ff39" stroke-opacity=".16" stroke-width="1" stroke-dasharray="2 5"/>
+  </g>
+  <circle cx="846" cy="222" r="5" fill="#b4ff39"/>
+  <circle cx="390" cy="344" r="3.5" fill="#d9ff9a"/>
+
+  <!-- nav -->
+  <circle cx="62" cy="48" r="12" fill="none" stroke="#b4ff39" stroke-width="1.4"/>
+  <circle cx="62" cy="48" r="4" fill="#b4ff39"/>
+  <text x="84" y="52" font-family="Arial" font-size="10" font-weight="700" letter-spacing="3" fill="#f2f4ee">ORBITAL</text>
+  <g font-family="Arial" font-size="7" letter-spacing="1" fill="#8b9385">
+    <text x="400" y="51">MISSIONS</text>
+    <text x="470" y="51">SYSTEMS</text>
+    <text x="546" y="51">JOURNAL</text>
+  </g>
+  <rect x="650" y="34" width="104" height="28" rx="14" fill="none" stroke="#b4ff39" stroke-opacity=".5"/>
+  <text x="702" y="52" text-anchor="middle" font-family="Arial" font-size="7" letter-spacing="1.2" fill="#b4ff39">GET IN ORBIT</text>
+
+  <!-- hero copy -->
+  <text x="46" y="158" font-family="Arial" font-size="7" letter-spacing="2.4" fill="#b4ff39">DEEP SPACE SYSTEMS · 2025</text>
+  <text x="42" y="232" font-family="Arial" font-size="62" font-weight="700" letter-spacing="-3" fill="#f2f4ee">BEYOND</text>
+  <text x="42" y="292" font-family="Arial" font-size="62" font-weight="700" letter-spacing="-3" fill="none" stroke="#b4ff39" stroke-width="1.4">THE EDGE.</text>
+  <text x="46" y="330" font-family="Arial" font-size="8.5" fill="#8b9385">We design the infrastructure for what comes next.</text>
+  <text x="46" y="344" font-family="Arial" font-size="8.5" fill="#8b9385">Quietly powerful. Ridiculously fast.</text>
+
+  <rect x="46" y="374" width="152" height="42" rx="21" fill="#b4ff39"/>
+  <text x="122" y="399" text-anchor="middle" font-family="Arial" font-size="8" font-weight="700" letter-spacing="1.4" fill="#050605">EXPLORE ORBIT</text>
+
+  <circle cx="228" cy="395" r="16" fill="none" stroke="#3a4435"/>
+  <path d="M224 389l8 6-8 6Z" fill="#b4ff39"/>
+  <text x="252" y="398" font-family="Arial" font-size="7" letter-spacing="1" fill="#8b9385">WATCH FILM</text>
+
+  <!-- bottom bar -->
+  <line x1="46" y1="526" x2="754" y2="526" stroke="#20281d"/>
+  <g font-family="Arial" font-size="6" letter-spacing="1.2" fill="#6d7568">
+    <text x="46" y="550">01 — ORBITAL SYSTEMS</text>
+    <text x="300" y="550">LOW EARTH ORBIT</text>
+    <text x="520" y="550">EST. 2025</text>
+    <text x="754" y="550" text-anchor="end" fill="#b4ff39">SCROLL ↓</text>
+  </g>
+
+  <rect x="46" y="74" width="1" height="420" fill="#1c2418"/>
+  <text x="34" y="470" transform="rotate(-90 34 470)" font-family="Arial" font-size="6" letter-spacing="2" fill="#4f574b">ORBITAL / 001</text>
+</svg>

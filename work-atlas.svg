@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="atlasTitle">
+  <title id="atlasTitle">Atlas data platform analytics interface</title>
+  <defs>
+    <linearGradient id="atlasBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#070b09"/>
+      <stop offset="1" stop-color="#050706"/>
+    </linearGradient>
+    <linearGradient id="atlasBar" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#5b9a1e"/>
+      <stop offset="1" stop-color="#b4ff39"/>
+    </linearGradient>
+    <radialGradient id="atlasGlow" cx=".2" cy=".1" r=".7">
+      <stop offset="0" stop-color="#b4ff39" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#b4ff39" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#atlasBg)"/>
+  <rect width="800" height="600" fill="url(#atlasGlow)"/>
+  <g stroke="#131a13" stroke-width="1" opacity=".6">
+    <path d="M200 60v540M340 60v540M480 60v540M620 60v540"/>
+    <path d="M0 200h800M0 340h800M0 480h800"/>
+  </g>
+
+  <!-- top bar -->
+  <rect width="800" height="60" fill="#070a08"/>
+  <line x1="0" y1="60" x2="800" y2="60" stroke="#1a2118"/>
+  <circle cx="40" cy="30" r="11" fill="none" stroke="#b4ff39" stroke-width="1.2"/>
+  <ellipse cx="40" cy="30" rx="5" ry="11" fill="none" stroke="#b4ff39" stroke-width=".8" stroke-opacity=".6"/>
+  <path d="M29 30h22" stroke="#b4ff39" stroke-width=".8" stroke-opacity=".6"/>
+  <text x="60" y="34" font-family="Arial" font-size="11" font-weight="700" letter-spacing="2.4" fill="#f2f4ee">ATLAS</text>
+  <g font-family="Arial" font-size="7.5" letter-spacing=".8" fill="#7d8476">
+    <text x="330" y="33">Dashboard</text>
+    <text x="396" y="33">Pipelines</text>
+    <text x="462" y="33">Models</text>
+    <text x="520" y="33">Reports</text>
+  </g>
+  <rect x="330" y="42" width="46" height="1.5" fill="#b4ff39"/>
+  <rect x="614" y="18" width="130" height="24" rx="12" fill="#0b0f0c" stroke="#242c21"/>
+  <circle cx="628" cy="30" r="3.5" fill="none" stroke="#6d7568"/>
+  <text x="638" y="33" font-family="Arial" font-size="7" fill="#5c6357">Search data...</text>
+  <circle cx="764" cy="30" r="11" fill="#b4ff39" fill-opacity=".15" stroke="#b4ff39" stroke-opacity=".4"/>
+  <text x="764" y="34" text-anchor="middle" font-family="Arial" font-size="7" font-weight="700" fill="#b4ff39">JD</text>
+  <rect x="20" y="30" width="20" height="20" fill="none"/>
+
+  <!-- left rail -->
+  <rect x="0" y="60" width="58" height="540" fill="#060806"/>
+  <line x1="58" y1="60" x2="58" y2="600" stroke="#1a2118"/>
+  <rect x="16" y="84" width="26" height="26" rx="7" fill="#b4ff39" fill-opacity=".13" stroke="#b4ff39" stroke-opacity=".35"/>
+  <path d="m22 97 7-6 7 6v8h-5v-5h-4v5h-5Z" fill="none" stroke="#b4ff39" stroke-width="1.2" stroke-linejoin="round"/>
+  <g fill="none" stroke="#4f594b" stroke-width="1.2" stroke-linecap="round">
+    <rect x="22" y="134" width="13" height="13" rx="2"/>
+    <path d="M22 163v11M28 163v11M34 163v11"/>
+    <ellipse cx="28" cy="206" rx="7" ry="3" stroke-width="1"/>
+    <path d="M21 206v8c0 2 3 3 7 3s7-1 7-3v-8"/>
+    <circle cx="28" cy="244" r="6"/>
+  </g>
+  <circle cx="28" cy="562" r="11" fill="#0d110c" stroke="#242c21"/>
+  <circle cx="28" cy="562" r="3" fill="#b4ff39"/>
+
+  <!-- heading -->
+  <text x="82" y="104" font-family="Arial" font-size="19" font-weight="700" fill="#f2f4ee">Global overview</text>
+  <text x="82" y="119" font-family="Arial" font-size="7.5" fill="#6d7568">Friday, 14 February · All systems operational</text>
+  <rect x="610" y="86" width="94" height="26" rx="13" fill="#0c100c" stroke="#242c21"/>
+  <text x="657" y="103" text-anchor="middle" font-family="Arial" font-size="6.5" fill="#8b9385">Last 30 days ▾</text>
+  <rect x="714" y="86" width="64" height="26" rx="13" fill="#b4ff39"/>
+  <text x="746" y="103" text-anchor="middle" font-family="Arial" font-size="6.5" font-weight="700" fill="#050605">EXPORT</text>
+
+  <!-- KPI cards -->
+  <g>
+    <rect x="82" y="134" width="160" height="84" rx="11" fill="#0b0f0c" stroke="#1c241a"/>
+    <text x="96" y="155" font-family="Arial" font-size="6" letter-spacing="1" fill="#707a6c">TOTAL REVENUE</text>
+    <text x="96" y="181" font-family="Arial" font-size="18" font-weight="700" fill="#f2f4ee">$1.24M</text>
+    <text x="96" y="198" font-family="Arial" font-size="6.5" fill="#b4ff39">↑ 12.4%</text>
+    <path d="M96 208h30c4 0 5-7 9-7s5 8 9 8 5-10 9-10 5 5 9 5h28" fill="none" stroke="#b4ff39" stroke-opacity=".3" stroke-width="1"/>
+
+    <rect x="254" y="134" width="160" height="84" rx="11" fill="#0b0f0c" stroke="#1c241a"/>
+    <text x="268" y="155" font-family="Arial" font-size="6" letter-spacing="1" fill="#707a6c">ACTIVE NODES</text>
+    <text x="268" y="181" font-family="Arial" font-size="18" font-weight="700" fill="#f2f4ee">8,420</text>
+    <text x="268" y="198" font-family="Arial" font-size="6.5" fill="#b4ff39">↑ 4.8%</text>
+    <path d="M268 208h30c4 0 5-7 9-7s5 8 9 8 5-10 9-10 5 5 9 5h28" fill="none" stroke="#b4ff39" stroke-opacity=".3" stroke-width="1"/>
+
+    <rect x="426" y="134" width="160" height="84" rx="11" fill="#0b0f0c" stroke="#1c241a"/>
+    <text x="440" y="155" font-family="Arial" font-size="6" letter-spacing="1" fill="#707a6c">UPTIME</text>
+    <text x="440" y="181" font-family="Arial" font-size="18" font-weight="700" fill="#f2f4ee">99.98%</text>
+    <text x="440" y="198" font-family="Arial" font-size="6.5" fill="#b4ff39">● All healthy</text>
+    <path d="M440 208h30c4 0 5-2 9-2s5 3 9 3 5-4 9-4 5 2 9 2h28" fill="none" stroke="#b4ff39" stroke-opacity=".3" stroke-width="1"/>
+
+    <rect x="598" y="134" width="160" height="84" rx="11" fill="#0b0f0c" stroke="#1c241a"/>
+    <text x="612" y="155" font-family="Arial" font-size="6" letter-spacing="1" fill="#707a6c">OPEN ALERTS</text>
+    <text x="612" y="181" font-family="Arial" font-size="18" font-weight="700" fill="#f2f4ee">3</text>
+    <text x="612" y="198" font-family="Arial" font-size="6.5" fill="#d9c57a">↑ 2 new</text>
+    <g fill="none" stroke="#5c6357" stroke-width=".8">
+      <rect x="612" y="205" width="3" height="6"/><rect x="619" y="201" width="3" height="10"/>
+      <rect x="626" y="203" width="3" height="8"/><rect x="633" y="197" width="3" height="14"/>
+    </g>
+  </g>
+
+  <!-- bar chart -->
+  <rect x="82" y="236" width="456" height="330" rx="13" fill="#0b0f0c" stroke="#1c241a"/>
+  <text x="102" y="262" font-family="Arial" font-size="10" font-weight="700" fill="#d9ded3">Revenue by month</text>
+  <text x="102" y="286" font-family="Arial" font-size="20" font-weight="700" fill="#f2f4ee">$1,248,320</text>
+  <text x="102" y="300" font-family="Arial" font-size="6.5" fill="#6d7568">+18.2% year over year</text>
+  <g font-family="Arial" font-size="6" fill="#6d7568">
+    <circle cx="430" cy="258" r="3" fill="#b4ff39"/>
+    <text x="438" y="261">2025</text>
+    <circle cx="480" cy="258" r="3" fill="#2a3326"/>
+    <text x="488" y="261">2024</text>
+  </g>
+
+  <g stroke="#192018" stroke-width="1">
+    <line x1="102" y1="330" x2="518" y2="330"/>
+    <line x1="102" y1="380" x2="518" y2="380"/>
+    <line x1="102" y1="430" x2="518" y2="430"/>
+    <line x1="102" y1="480" x2="518" y2="480"/>
+    <line x1="102" y1="520" x2="518" y2="520"/>
+  </g>
+
+  <!-- bars -->
+  <g fill="url(#atlasBar)" opacity=".55">
+    <rect x="110" y="462" width="20" height="58" rx="3"/>
+    <rect x="143" y="438" width="20" height="82" rx="3"/>
+    <rect x="176" y="448" width="20" height="72" rx="3"/>
+    <rect x="209" y="404" width="20" height="116" rx="3"/>
+    <rect x="242" y="420" width="20" height="100" rx="3"/>
+    <rect x="275" y="380" width="20" height="140" rx="3"/>
+    <rect x="308" y="392" width="20" height="128" rx="3"/>
+    <rect x="341" y="358" width="20" height="162" rx="3"/>
+    <rect x="374" y="372" width="20" height="148" rx="3"/>
+  </g>
+  <g opacity=".85">
+    <rect x="407" y="342" width="20" height="178" rx="3" fill="#b4ff39"/>
+    <rect x="440" y="356" width="20" height="164" rx="3" fill="#b4ff39" opacity=".55"/>
+    <rect x="473" y="326" width="20" height="194" rx="3" fill="#b4ff39" opacity=".4"/>
+  </g>
+  <rect x="395" y="304" width="44" height="24" rx="5" fill="#b4ff39"/>
+  <text x="417" y="319" text-anchor="middle" font-family="Arial" font-size="7" font-weight="700" fill="#050605">$186k</text>
+
+  <g font-family="Arial" font-size="5.5" fill="#5c6357">
+    <text x="116" y="536" text-anchor="middle">JAN</text><text x="149" y="536" text-anchor="middle">FEB</text>
+    <text x="182" y="536" text-anchor="middle">MAR</text><text x="215" y="536" text-anchor="middle">APR</text>
+    <text x="248" y="536" text-anchor="middle">MAY</text><text x="281" y="536" text-anchor="middle">JUN</text>
+    <text x="314" y="536" text-anchor="middle">JUL</text><text x="347" y="536" text-anchor="middle">AUG</text>
+    <text x="380" y="536" text-anchor="middle">SEP</text><text x="413" y="536" text-anchor="middle">OCT</text>
+    <text x="446" y="536" text-anchor="middle">NOV</text><text x="479" y="536" text-anchor="middle">DEC</text>
+  </g>
+
+  <!-- node health -->
+  <rect x="552" y="236" width="206" height="150" rx="13" fill="#0b0f0c" stroke="#1c241a"/>
+  <text x="568" y="260" font-family="Arial" font-size="9" font-weight="700" fill="#d9ded3">Node health</text>
+  <circle cx="662" cy="316" r="31" fill="none" stroke="#1b2419" stroke-width="8"/>
+  <circle cx="662" cy="316" r="31" fill="none" stroke="#b4ff39" stroke-width="8" stroke-linecap="round"
+    stroke-dasharray="192 195" transform="rotate(-90 662 316)"/>
+  <text x="662" y="318" text-anchor="middle" font-family="Arial" font-size="10" font-weight="700" fill="#f2f4ee">99.98%</text>
+  <text x="662" y="328" text-anchor="middle" font-family="Arial" font-size="5" fill="#6d7568">UPTIME</text>
+  <g font-family="Arial" font-size="5.5" fill="#7d8476">
+    <circle cx="578" cy="300" r="2.5" fill="#b4ff39"/>
+    <text x="585" y="303">US-East</text>
+    <circle cx="578" cy="316" r="2.5" fill="#69d98a"/>
+    <text x="585" y="319">EU-West</text>
+    <circle cx="578" cy="332" r="2.5" fill="#3d5a35"/>
+    <text x="585" y="335">APAC</text>
+  </g>
+  <text x="568" y="366" font-family="Arial" font-size="6" fill="#4f594b">12 regions · 240 edge nodes</text>
+
+  <!-- recent syncs -->
+  <rect x="552" y="398" width="206" height="168" rx="13" fill="#0b0f0c" stroke="#1c241a"/>
+  <text x="568" y="422" font-family="Arial" font-size="9" font-weight="700" fill="#d9ded3">Recent syncs</text>
+  <g font-family="Arial">
+    <circle cx="572" cy="444" r="3" fill="#b4ff39"/>
+    <text x="582" y="447" font-size="6.5" fill="#d9ded3">nova-core</text>
+    <text x="744" y="447" text-anchor="end" font-size="5.5" fill="#6d7568">2m ago</text>
+    <line x1="568" y1="456" x2="744" y2="456" stroke="#191f17"/>
+
+    <circle cx="572" cy="472" r="3" fill="#b4ff39"/>
+    <text x="582" y="475" font-size="6.5" fill="#d9ded3">atlas-warehouse</text>
+    <text x="744" y="475" text-anchor="end" font-size="5.5" fill="#6d7568">14m ago</text>
+    <line x1="568" y1="484" x2="744" y2="484" stroke="#191f17"/>
+
+    <circle cx="572" cy="500" r="3" fill="#d9c57a"/>
+    <text x="582" y="503" font-size="6.5" fill="#d9ded3">pulse-events</text>
+    <text x="744" y="503" text-anchor="end" font-size="5.5" fill="#d9c57a">retrying</text>
+    <line x1="568" y1="512" x2="744" y2="512" stroke="#191f17"/>
+
+    <circle cx="572" cy="528" r="3" fill="#b4ff39"/>
+    <text x="582" y="531" font-size="6.5" fill="#d9ded3">lumen-cdn</text>
+    <text x="744" y="531" text-anchor="end" font-size="5.5" fill="#6d7568">1h ago</text>
+  </g>
+  <rect x="568" y="544" width="174" height="8" rx="4" fill="#141b12"/>
+  <rect x="568" y="544" width="152" height="8" rx="4" fill="#b4ff39" fill-opacity=".5"/>
+</svg>

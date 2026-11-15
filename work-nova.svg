@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="novaTitle">
+  <title id="novaTitle">Nova Analytics dashboard</title>
+  <defs>
+    <linearGradient id="novaBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f0c"/>
+      <stop offset="1" stop-color="#050605"/>
+    </linearGradient>
+    <linearGradient id="novaArea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#b4ff39" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#b4ff39" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="novaGlow" cx=".78" cy=".12" r=".6">
+      <stop offset="0" stop-color="#b4ff39" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#b4ff39" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#novaBg)"/>
+  <rect width="800" height="600" fill="url(#novaGlow)"/>
+
+  <g stroke="#151b14" stroke-width="1" opacity=".5">
+    <path d="M200 0v600M320 0v600M440 0v600M560 0v600M680 0v600"/>
+    <path d="M0 140h800M0 300h800M0 460h800"/>
+  </g>
+
+  <!-- sidebar -->
+  <rect width="150" height="600" fill="#070907"/>
+  <line x1="150" y1="0" x2="150" y2="600" stroke="#1a2118"/>
+  <rect x="24" y="26" width="28" height="28" rx="8" fill="#b4ff39"/>
+  <text x="38" y="45" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#050605">N</text>
+  <text x="62" y="45" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#f2f4ee">NOVA</text>
+  <text x="62" y="57" font-family="Arial, Helvetica, sans-serif" font-size="6.5" letter-spacing="1.2" fill="#6d7568">ANALYTICS</text>
+
+  <g font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#7f887b">
+    <rect x="16" y="94" width="118" height="34" rx="8" fill="#b4ff39" fill-opacity=".09"/>
+    <rect x="28" y="106" width="10" height="10" rx="2.5" fill="#b4ff39"/>
+    <text x="48" y="115" fill="#d9ff9a" font-size="10">Overview</text>
+
+    <rect x="28" y="147" width="10" height="10" rx="2.5" fill="#2a3226"/>
+    <text x="48" y="156">Analytics</text>
+
+    <rect x="28" y="185" width="10" height="10" rx="2.5" fill="#2a3226"/>
+    <text x="48" y="194">Reports</text>
+
+    <rect x="28" y="223" width="10" height="10" rx="2.5" fill="#2a3226"/>
+    <text x="48" y="232">Team</text>
+
+    <rect x="28" y="261" width="10" height="10" rx="2.5" fill="#2a3226"/>
+    <text x="48" y="270">Settings</text>
+  </g>
+
+  <rect x="16" y="508" width="118" height="54" rx="10" fill="#0d110c" stroke="#1c241a"/>
+  <circle cx="38" cy="535" r="12" fill="#b4ff39" fill-opacity=".16" stroke="#b4ff39" stroke-opacity=".4"/>
+  <text x="38" y="539" text-anchor="middle" font-family="Arial" font-size="8" font-weight="700" fill="#b4ff39">TM</text>
+  <text x="58" y="532" font-family="Arial" font-size="8.5" font-weight="700" fill="#f2f4ee">Taylor M.</text>
+  <text x="58" y="544" font-family="Arial" font-size="6.5" fill="#6d7568">Admin</text>
+  <circle cx="118" cy="535" r="2" fill="#b4ff39"/>
+
+  <!-- top bar -->
+  <text x="178" y="35" font-family="Arial" font-size="9" letter-spacing=".8" fill="#6d7568">Workspace / Overview</text>
+  <rect x="512" y="18" width="166" height="26" rx="13" fill="#0c100c" stroke="#1c241a"/>
+  <circle cx="528" cy="31" r="4" fill="none" stroke="#6d7568" stroke-width="1.2"/>
+  <path d="m531 34 4 4" stroke="#6d7568" stroke-width="1.2" stroke-linecap="round"/>
+  <text x="542" y="34" font-family="Arial" font-size="8" fill="#5c6357">Search anything...</text>
+  <circle cx="704" cy="31" r="10" fill="#101510" stroke="#232b20"/>
+  <circle cx="716" cy="31" r="10" fill="#101510" stroke="#232b20"/>
+  <path d="M701 28v6M706 28v6M713 29l2 2-2 2" stroke="#8b9385" stroke-width="1.2" stroke-linecap="round"/>
+  <line x1="150" y1="58" x2="800" y2="58" stroke="#171d15"/>
+
+  <!-- heading -->
+  <text x="178" y="104" font-family="Arial" font-size="21" font-weight="700" fill="#f2f4ee">Performance overview</text>
+  <text x="178" y="121" font-family="Arial" font-size="8.5" fill="#707a6c">Last 30 days · Updated 2 min ago</text>
+  <rect x="686" y="82" width="86" height="28" rx="14" fill="#b4ff39"/>
+  <text x="729" y="100" text-anchor="middle" font-family="Arial" font-size="8.5" font-weight="700" fill="#050605">EXPORT</text>
+
+  <!-- KPI cards -->
+  <g>
+    <rect x="178" y="140" width="188" height="96" rx="12" fill="#0d110c" stroke="#1c241a"/>
+    <text x="194" y="163" font-family="Arial" font-size="7.5" letter-spacing="1" fill="#707a6c">REVENUE</text>
+    <text x="194" y="194" font-family="Arial" font-size="22" font-weight="700" fill="#f2f4ee">$84.2k</text>
+    <text x="194" y="214" font-family="Arial" font-size="8" fill="#b4ff39">↑ 24.8%</text>
+    <text x="232" y="214" font-family="Arial" font-size="7.5" fill="#5c6357">vs last month</text>
+
+    <rect x="381" y="140" width="188" height="96" rx="12" fill="#0d110c" stroke="#1c241a"/>
+    <text x="397" y="163" font-family="Arial" font-size="7.5" letter-spacing="1" fill="#707a6c">ACTIVE USERS</text>
+    <text x="397" y="194" font-family="Arial" font-size="22" font-weight="700" fill="#f2f4ee">12,480</text>
+    <text x="397" y="214" font-family="Arial" font-size="8" fill="#b4ff39">↑ 18.2%</text>
+    <text x="435" y="214" font-family="Arial" font-size="7.5" fill="#5c6357">vs last month</text>
+
+    <rect x="584" y="140" width="188" height="96" rx="12" fill="#0d110c" stroke="#1c241a"/>
+    <text x="600" y="163" font-family="Arial" font-size="7.5" letter-spacing="1" fill="#707a6c">CHURN RATE</text>
+    <text x="600" y="194" font-family="Arial" font-size="22" font-weight="700" fill="#f2f4ee">1.24%</text>
+    <text x="600" y="214" font-family="Arial" font-size="8" fill="#b4ff39">↓ 0.4%</text>
+    <text x="630" y="214" font-family="Arial" font-size="7.5" fill="#5c6357">healthier</text>
+  </g>
+
+  <!-- chart card -->
+  <rect x="178" y="252" width="390" height="276" rx="14" fill="#0b0f0b" stroke="#1c241a"/>
+  <text x="196" y="278" font-family="Arial" font-size="10" font-weight="700" fill="#d9ded3">Revenue growth</text>
+  <text x="196" y="303" font-family="Arial" font-size="20" font-weight="700" fill="#f2f4ee">$84,230</text>
+  <text x="196" y="318" font-family="Arial" font-size="7.5" fill="#6d7568">Gross volume this quarter</text>
+  <rect x="496" y="268" width="54" height="20" rx="10" fill="#101510" stroke="#232b20"/>
+  <text x="523" y="281" text-anchor="middle" font-family="Arial" font-size="7" fill="#8b9385">Monthly ▾</text>
+
+  <g stroke="#1a2118" stroke-width="1">
+    <line x1="196" y1="348" x2="552" y2="348"/>
+    <line x1="196" y1="388" x2="552" y2="388"/>
+    <line x1="196" y1="428" x2="552" y2="428"/>
+    <line x1="196" y1="468" x2="552" y2="468"/>
+    <line x1="196" y1="506" x2="552" y2="506"/>
+  </g>
+  <text x="200" y="344" font-family="Arial" font-size="6" fill="#4f574b">$20k</text>
+  <text x="200" y="384" font-family="Arial" font-size="6" fill="#4f574b">$15k</text>
+  <text x="200" y="424" font-family="Arial" font-size="6" fill="#4f574b">$10k</text>
+  <text x="200" y="464" font-family="Arial" font-size="6" fill="#4f574b">$5k</text>
+
+  <path d="M196 482 C222 468 232 450 254 454 S286 466 306 440 S336 400 356 412 S390 430 414 392 S446 372 466 380 S500 350 518 332 S540 312 552 300 L552 506 L196 506 Z" fill="url(#novaArea)"/>
+  <path d="M196 482 C222 468 232 450 254 454 S286 466 306 440 S336 400 356 412 S390 430 414 392 S446 372 466 380 S500 350 518 332 S540 312 552 300" fill="none" stroke="#b4ff39" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="466" y1="380" x2="466" y2="506" stroke="#b4ff39" stroke-opacity=".28" stroke-dasharray="3 4"/>
+  <circle cx="466" cy="380" r="4.5" fill="#b4ff39"/>
+  <circle cx="466" cy="380" r="9" fill="#b4ff39" fill-opacity=".15"/>
+  <rect x="432" y="344" width="68" height="25" rx="6" fill="#101510" stroke="#3a4a2d"/>
+  <text x="466" y="360" text-anchor="middle" font-family="Arial" font-size="8" font-weight="700" fill="#b4ff39">$18,420</text>
+
+  <g font-family="Arial" font-size="6.5" fill="#5c6357">
+    <text x="196" y="520">JAN</text><text x="258" y="520">FEB</text><text x="320" y="520">MAR</text>
+    <text x="382" y="520">APR</text><text x="444" y="520">MAY</text><text x="506" y="520">JUN</text>
+  </g>
+
+  <!-- traffic card -->
+  <rect x="584" y="252" width="188" height="276" rx="14" fill="#0b0f0b" stroke="#1c241a"/>
+  <text x="600" y="278" font-family="Arial" font-size="10" font-weight="700" fill="#d9ded3">Traffic sources</text>
+
+  <circle cx="678" cy="360" r="48" fill="none" stroke="#1b2419" stroke-width="14"/>
+  <circle cx="678" cy="360" r="48" fill="none" stroke="#b4ff39" stroke-width="14" stroke-dasharray="172 302" stroke-dashoffset="0" transform="rotate(-90 678 360)"/>
+  <circle cx="678" cy="360" r="48" fill="none" stroke="#69d98a" stroke-width="14" stroke-dasharray="76 302" stroke-dashoffset="-176" transform="rotate(-90 678 360)"/>
+  <circle cx="678" cy="360" r="48" fill="none" stroke="#3d5a35" stroke-width="14" stroke-dasharray="38 302" stroke-dashoffset="-256" transform="rotate(-90 678 360)"/>
+  <text x="678" y="358" text-anchor="middle" font-family="Arial" font-size="15" font-weight="700" fill="#f2f4ee">48.2k</text>
+  <text x="678" y="370" text-anchor="middle" font-family="Arial" font-size="6.5" letter-spacing=".8" fill="#6d7568">VISITS</text>
+
+  <g font-family="Arial" font-size="7.5" fill="#8b9385">
+    <circle cx="606" cy="437" r="3.5" fill="#b4ff39"/>
+    <text x="616" y="440">Organic</text><text x="750" y="440" text-anchor="end" fill="#d9ded3">58%</text>
+    <circle cx="606" cy="461" r="3.5" fill="#69d98a"/>
+    <text x="616" y="464">Paid ads</text><text x="750" y="464" text-anchor="end" fill="#d9ded3">27%</text>
+    <circle cx="606" cy="485" r="3.5" fill="#3d5a35"/>
+    <text x="616" y="488">Direct</text><text x="750" y="488" text-anchor="end" fill="#d9ded3">15%</text>
+  </g>
+  <line x1="600" y1="504" x2="756" y2="504" stroke="#1a2118"/>
+  <circle cx="604" cy="514" r="2.5" fill="#b4ff39"/>
+  <text x="612" y="517" font-family="Arial" font-size="6.5" fill="#5c6357">Live data · synced 2m ago</text>
+</svg>

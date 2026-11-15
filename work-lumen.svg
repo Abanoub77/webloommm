@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="lumenTitle">
+  <title id="lumenTitle">Lumen Studio brand identity system</title>
+  <defs>
+    <radialGradient id="lumenGlow" cx=".82" cy=".18" r=".6">
+      <stop offset="0" stop-color="#b4ff39" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#b4ff39" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="lumenCream" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5f2e8"/>
+      <stop offset="1" stop-color="#d9d5c5"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="#0a0b09"/>
+  <rect width="800" height="600" fill="url(#lumenGlow)"/>
+  <g stroke="#1a1d18" stroke-width="1">
+    <path d="M0 100h800M0 240h800M0 360h800M0 520h800"/>
+    <path d="M400 0v600M48 0v600M752 0v600"/>
+  </g>
+
+  <text x="48" y="46" font-family="Arial" font-size="7" letter-spacing="2" fill="#7d8476">LUMEN® — BRAND SYSTEM</text>
+  <text x="752" y="46" text-anchor="end" font-family="Arial" font-size="7" letter-spacing="2" fill="#7d8476">IDENTITY / 2024</text>
+
+  <!-- monogram -->
+  <g>
+    <circle cx="648" cy="152" r="84" fill="none" stroke="#2a3026" stroke-width="1"/>
+    <circle cx="648" cy="152" r="66" fill="none" stroke="#b4ff39" stroke-width="1.4"/>
+    <path d="M626 112v80h48" fill="none" stroke="#f2efe4" stroke-width="13" stroke-linecap="square"/>
+    <path d="M682 112v80" fill="none" stroke="#b4ff39" stroke-width="3"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="44" y="188" font-family="Geometrica, 'Segoe UI', Arial, sans-serif" font-size="94" font-weight="700" letter-spacing="-5" fill="url(#lumenCream)">LUMEN</text>
+  <circle cx="472" cy="118" r="9" fill="#b4ff39"/>
+  <text x="48" y="218" font-family="Arial" font-size="9" letter-spacing="4.4" fill="#b4ff39">LIGHT, SHAPED.</text>
+
+  <!-- typography card -->
+  <rect x="48" y="260" width="326" height="218" rx="14" fill="#0e100d" stroke="#232821"/>
+  <text x="66" y="284" font-family="Arial" font-size="6" letter-spacing="1.4" fill="#6d7568">01 — TYPOGRAPHY</text>
+  <text x="66" y="376" font-family="Georgia, 'Times New Roman', serif" font-size="76" fill="#f2efe4">Aa</text>
+  <text x="196" y="376" font-family="'Segoe UI', Arial, sans-serif" font-size="76" font-weight="300" fill="#b4ff39">Aa</text>
+  <line x1="66" y1="396" x2="356" y2="396" stroke="#242a22"/>
+  <text x="66" y="416" font-family="Georgia, serif" font-size="6.5" fill="#7d8476">SERIF DISPLAY · EDITORIAL</text>
+  <text x="196" y="416" font-family="Arial" font-size="6.5" fill="#7d8476">SANS GROTESK · DIGITAL</text>
+  <text x="66" y="446" font-family="Georgia, serif" font-size="17" fill="#d9ded3">Light is a material.</text>
+  <text x="66" y="462" font-family="Arial" font-size="6.5" fill="#5f675b">A quiet type system with loud intentions.</text>
+
+  <!-- palette -->
+  <text x="404" y="284" font-family="Arial" font-size="6" letter-spacing="1.4" fill="#6d7568">02 — COLOUR</text>
+  <g>
+    <rect x="404" y="296" width="72" height="72" rx="8" fill="#f2efe4"/>
+    <text x="404" y="384" font-family="Arial" font-size="6" fill="#7d8476">CREAM</text>
+    <text x="404" y="394" font-family="Arial" font-size="5.5" fill="#4f574b">#F2EFE4</text>
+
+    <rect x="488" y="296" width="72" height="72" rx="8" fill="#b4ff39"/>
+    <text x="488" y="384" font-family="Arial" font-size="6" fill="#7d8476">SIGNAL</text>
+    <text x="488" y="394" font-family="Arial" font-size="5.5" fill="#4f574b">#B4FF39</text>
+
+    <rect x="572" y="296" width="72" height="72" rx="8" fill="#27472f"/>
+    <text x="572" y="384" font-family="Arial" font-size="6" fill="#7d8476">FOREST</text>
+    <text x="572" y="394" font-family="Arial" font-size="5.5" fill="#4f574b">#27472F</text>
+
+    <rect x="656" y="296" width="72" height="72" rx="8" fill="#6f776b"/>
+    <text x="656" y="384" font-family="Arial" font-size="6" fill="#7d8476">STONE</text>
+    <text x="656" y="394" font-family="Arial" font-size="5.5" fill="#4f574b">#6F776B</text>
+  </g>
+
+  <!-- pattern card -->
+  <rect x="404" y="412" width="324" height="132" rx="14" fill="#0d0f0c" stroke="#232821"/>
+  <g fill="none" stroke="#b4ff39">
+    <circle cx="470" cy="478" r="56" stroke-opacity=".16"/>
+    <circle cx="470" cy="478" r="42" stroke-opacity=".28"/>
+    <circle cx="470" cy="478" r="28" stroke-opacity=".45"/>
+    <circle cx="470" cy="478" r="14" stroke-opacity=".8"/>
+    <circle cx="470" cy="478" r="4" fill="#b4ff39" stroke="none"/>
+  </g>
+  <text x="552" y="462" font-family="Arial" font-size="6" letter-spacing="1.4" fill="#6d7568">03 — MOTIF</text>
+  <text x="552" y="484" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="1" fill="#f2efe4">RADIANCE</text>
+  <text x="552" y="504" font-family="Arial" font-size="6.5" fill="#5f675b">A system that expands with the brand.</text>
+  <line x1="552" y1="518" x2="706" y2="518" stroke="#242a22"/>
+  <text x="552" y="532" font-family="Arial" font-size="5.5" letter-spacing="1.2" fill="#4f574b">SYMBOL / GRID / MOTION</text>
+
+  <!-- bottom annotation -->
+  <text x="48" y="548" font-family="Arial" font-size="6" letter-spacing="1.4" fill="#4f574b">LUMEN STUDIO — WHERE LIGHT BECOMES FORM</text>
+  <path d="M48 562h114" stroke="#b4ff39" stroke-width="1"/>
+</svg>
